@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arju Shukla</title>
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: linear-gradient(180deg, #F4F1EC 0%, #E7E2D8 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box;
+    padding: 48px 32px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  img.photo {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  }
+  h1 {
+    margin: 20px 0 4px;
+    font-size: 26px;
+    color: #26241F;
+    text-align: center;
+  }
+  .tagline {
+    font-size: 14px;
+    color: #6B6559;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .icons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 28px;
+  }
+  .icons a { opacity: 1; transition: opacity 0.15s; }
+  .icons a:hover { opacity: 0.6; }
+  .linkbtn {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    border-radius: 999px;
+    background: #5B6B5B;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 12px;
+    transition: filter 0.15s;
+  }
+  .linkbtn:hover { filter: brightness(1.08); }
+  .section-label {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #8A8374;
+    margin: 16px 0 10px;
+  }
+  .card-item {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 18px;
+    border-radius: 18px;
+    background: #fff;
+    border: 1px solid #DDD6C7;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .card-item .title { font-size: 14px; font-weight: 600; color: #26241F; }
+  .card-item .sub { font-size: 12px; color: #8A8374; }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <img class="photo" src="photo.jpg" alt="Arju Shukla">
+
+  <h1>Arju Shukla</h1>
+  <div class="tagline">Data Engineer · MSITM Candidate, UT Austin</div>
+
+  <div class="icons">
+    <a href="https://www.linkedin.com/in/arju-shukla" target="_blank" aria-label="LinkedIn">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="#26241F"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+    </a>
+    <a href="mailto:arju01usa@gmail.com" aria-label="Email">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#26241F" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+    </a>
+    <a href="https://github.com/arju0108" target="_blank" aria-label="GitHub">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="#26241F"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+    </a>
+  </div>
+
+  <a href="#" target="_blank" class="linkbtn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h6M9 9h1"/></svg>
+    Curriculum Vitae
+  </a>
+
+  <a href="https://github.com/arju0108" target="_blank" class="linkbtn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+    GitHub Profile
+  </a>
+
+  <div class="section-label">Publication</div>
+  <a href="https://doi.org/10.22214/ijraset.2019.5245" target="_blank" class="card-item">
+    <span class="title">Traffic Sign Recognition Using CNN</span>
+    <span class="sub">IJRASET, Vol. 7, Issue V · May 2019</span>
+  </a>
+
+  <div class="section-label">Projects</div>
+  <div class="card-item">
+    <span class="title">CNN-Based Traffic Sign Recognition</span>
+    <span class="sub">TensorFlow · Keras · 97.5% test accuracy</span>
+  </div>
+  <div class="card-item">
+    <span class="title">Compatibility Recommendation Engine</span>
+    <span class="sub">Python · MySQL · Full-stack matching platform</span>
+  </div>
+
+</div>
+</body>
+</html>
